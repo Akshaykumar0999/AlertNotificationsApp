@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.notification-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.details-card-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.icon-success {
+  color: #2dca73;
+  height: 25px;
+  width: 25px;
+  margin: 10px;
+}
+.icon-error {
+  color: #ff0b37;
+  height: 25px;
+  width: 25px;
+  margin: 10px;
+}
+.icon-warning {
+  color: #ffb800;
+  height: 25px;
+  width: 25px;
+  margin: 10px;
+}
+.icon-info {
+  color: #0f81e0;
+  height: 25px;
+  width: 25px;
+  margin: 10px;
+}
+.details-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 90%;
+}
+.heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.success {
+  color: #2dca73;
+}
+.error {
+  color: #ff0b37;
+}
+.warning {
+  color: #ffb800;
+}
+.info {
+  color: #0f81e0;
+}
+.description {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #64748b;
+}
+.main-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #0f172a;
+}

@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.app-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  width: 90%;
+  margin: 12px;
+}
+.close-icon {
+  color: #0f172a;
+  height: 20px;
+  width: 20px;
+}
